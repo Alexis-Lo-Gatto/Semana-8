@@ -1,0 +1,28 @@
+.main-index {
+  section {
+    .card-index {
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 300px;
+      gap: 50px;
+      margin-bottom: 40px;
+      .card {
+        border-radius: 10px;
+        border: 2px solid #000;
+        background: rgb(238, 174, 202);
+        background: radial-gradient(
+          circle,
+          rgba(238, 174, 202, 1) 0%,
+          rgba(148, 187, 233, 1) 100%
+        );
+        transition: all 1s;
+        &:hover {
+          -webkit-box-shadow: 0px 6px 67px 18px rgba(238, 174, 202, 1);
+          -moz-box-shadow: 0px 6px 67px 18px rgba(238, 174, 202, 1);
+          box-shadow: 0px 6px 67px 18px rgba(238, 174, 202, 1);
+        }
+      }
+    }
+  }
+}

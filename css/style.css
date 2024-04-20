@@ -1,3 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.zoom, .header-index nav div ul li a, .header-index h1, .header-index img {
+  transition: all 0.3s;
+}
+.zoom:hover, .header-index nav div ul li a:hover, .header-index h1:hover, .header-index img:hover {
+  transform: scale(1.1);
+}
+
+.header-index {
+  background: rgb(89, 122, 255);
+  background: linear-gradient(0deg, rgb(89, 122, 255) 31%, rgb(250, 252, 255) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-index img {
+  height: 90px;
+  border-radius: 50%;
+}
+.header-index h1 {
+  margin-left: 250px;
+  padding: 0px 250px 0px 350px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.header-index h1:hover {
+  text-shadow: 4px 4px 4px #fff;
+}
+.header-index nav div ul li a {
+  font-size: 20px;
+  color: #000 !important;
+}
+.header-index nav div ul li a:hover {
+  text-shadow: 4px 4px 4px #fff;
+}
+
+.main-index {
+  background: rgb(135, 159, 255);
+  background: linear-gradient(194deg, rgb(135, 159, 255) 29%, rgb(250, 252, 255) 100%);
+}
+.main-index section h2 {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.main-index section .card-index {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 300px;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+.main-index section .card-index .card {
+  border-radius: 10px;
+  border: 2px solid #000;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  transition: all 1s;
+}
+.main-index section .card-index .card:hover {
+  -webkit-box-shadow: 0px 6px 67px 18px rgb(238, 174, 202);
+  -moz-box-shadow: 0px 6px 67px 18px rgb(238, 174, 202);
+  box-shadow: 0px 6px 67px 18px rgb(238, 174, 202);
+}
+
+@keyframes mover-icono {
+  10% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-40deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+.footer-index {
+  background: rgb(135, 159, 255);
+  background: linear-gradient(353deg, rgb(135, 159, 255) 29%, rgb(250, 252, 255) 100%);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.footer-index ul li {
+  display: inline-block;
+}
+.footer-index ul li a {
+  color: #000;
+  font-size: 20px;
+  margin: 50px;
+}
+.footer-index ul li a img {
+  animation-name: mover-icono;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
 
 /*# sourceMappingURL=style.css.map */
