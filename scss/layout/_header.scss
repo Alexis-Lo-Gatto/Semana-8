@@ -1,15 +1,6 @@
-@mixin text-shadow {
-  &:hover {
-    text-shadow: 4px 4px 4px #fff;
-  }
-}
 
-.zoom {
-  transition: all 0.3s;
-  &:hover {
-    transform: scale(1.1);
-  }
-}
+
+/*Index*/
 
 .header-index {
   background: rgb(89, 122, 255);
@@ -38,10 +29,58 @@
     @include text-shadow();
   }
 
-  nav div ul li a {
-    font-size: 20px;
-    color: #000 !important;
+  nav {
+    div {
+      ul {
+        li {
+          a {
+            font-size: 20px;
+            color: #000 !important;
+            @extend .zoom;
+            @include text-shadow();
+          }
+        }
+      }
+    }
+  }
+}
+
+/*Electrodomesticos*/
+
+.header-electrodomesticos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0,117,255);
+background: radial-gradient(circle, rgba(0,117,255,1) 4%, rgba(255,255,255,1) 100%);
+
+  img {
+    height: 90px;
+    border-radius: 50%;
     @extend .zoom;
-    @include text-shadow();
+    margin: 10px;
+   margin-left:100px;
+  }
+  nav {
+    div {
+      ul {
+        li {
+          a {
+            font-size: 25px;
+            color: #000 !important;
+            @extend .zoom;
+            transition: all .5;
+            &:hover{
+              text-shadow: 2px 2px 16px rgb(209, 102, 221), 4px 4px 16px #d66, 2px 2px 7px rgb(221, 197, 102);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  h1{
+    font-weight: 900;
+    margin-right: 100px;
   }
 }

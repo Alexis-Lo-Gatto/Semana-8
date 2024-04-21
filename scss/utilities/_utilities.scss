@@ -1,0 +1,31 @@
+@keyframes mover-icono {
+  10% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-40deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+@mixin text-shadow {
+  &:hover {
+    text-shadow: 4px 4px 4px #fff;
+  }
+}
+
+.zoom {
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.09);
+  }
+}
+
+@mixin footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
