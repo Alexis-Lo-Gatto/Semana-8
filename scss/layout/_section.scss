@@ -80,3 +80,35 @@
     }
   }
 }
+
+/*Main bebidas*/
+
+.main-bebidas {
+  background: rgb(40, 255, 239);
+  background: linear-gradient(
+    180deg,
+    rgba(40, 255, 239, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  h2 {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    font-weight: bold;
+  }
+  .contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+
+    img {
+      height: 90%;
+      width: 100%;
+      object-fit: contain;
+      @extend .zoom;
+      border: 2px solid #000;
+    }
+  }
+}
