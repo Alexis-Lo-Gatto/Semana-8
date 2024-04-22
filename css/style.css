@@ -192,4 +192,11 @@
   animation-iteration-count: infinite;
 }
 
+/*Carrusel de Comidas*/
+.main-comidas section div div div img {
+  height: 600px;
+  object-fit: cover;
+  object-position: center 70%;
+}
+
 /*# sourceMappingURL=style.css.map */
