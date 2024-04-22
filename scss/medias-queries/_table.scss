@@ -1,0 +1,218 @@
+/* Index */
+.header-index {
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      margin: 20px auto;
+      padding: 0 20px;
+      font-size: 20px;
+    }
+
+    nav {
+      margin: 20px auto;
+    }
+  }
+}
+
+.main-index {
+  section {
+    h2 {
+      @media screen and (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.footer-index {
+  ul li {
+    display: block;
+    text-align: center;
+
+    a {
+      margin: 15px auto;
+    }
+  }
+}
+
+/* Ropa */
+.header-ropa {
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      margin: 20px auto;
+      padding: 0 20px;
+      font-size: 20px;
+    }
+
+    nav {
+      margin: 20px auto;
+    }
+  }
+}
+
+.main-ropa {
+  section {
+    h2 {
+      @media screen and (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.footer-ropa {
+  ul li {
+    display: inline-block;
+    text-align: center;
+
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+/* Electrodomesticos */
+.header-electrodomesticos {
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      margin: 20px auto;
+      padding: 0 20px;
+      font-size: 20px;
+    }
+
+    nav {
+      margin: 20px auto;
+    }
+  }
+}
+
+.main-electrodomesticos {
+  section {
+    h2 {
+      @media screen and (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.footer-electrodomesticos {
+  ul li {
+    display: inline-block;
+    text-align: center;
+
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+/* Comidas */
+.header-comidas {
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      margin: 20px auto;
+      padding: 0 20px;
+      font-size: 20px;
+    }
+
+    nav {
+      margin: 20px auto;
+    }
+  }
+}
+
+.main-comidas {
+  section {
+    h2 {
+      @media screen and (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.footer-comidas {
+  ul li {
+    display: inline-block;
+    text-align: center;
+
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+/* Bebidas */
+.header-bebidas {
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+
+    img {
+      display: none;
+    }
+
+    h1 {
+      margin: 20px auto;
+      padding: 0 20px;
+      font-size: 20px;
+    }
+
+    nav {
+      margin: 20px auto;
+    }
+  }
+}
+
+.main-bebidas {
+  section {
+    h2 {
+      @media screen and (max-width: 768px) {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.footer-bebidas {
+  ul li {
+    display: inline-block;
+    text-align: center;
+
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

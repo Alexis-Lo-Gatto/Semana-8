@@ -3,6 +3,338 @@
   padding: 0;
 }
 
+/*Index*/
+@media screen and (max-width: 320px) {
+  .header-index {
+    display: block;
+    text-align: center;
+  }
+  .header-index img {
+    display: none;
+  }
+  .header-index h1 {
+    margin: 20px auto;
+    padding: 0 10px;
+    font-size: 15px;
+  }
+  .header-index nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-index section h2 {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+.footer-index ul li {
+  display: block;
+  text-align: center;
+}
+.footer-index ul li a {
+  margin: 20px auto;
+}
+
+/*Ropa*/
+@media screen and (max-width: 320px) {
+  .header-ropa {
+    display: block;
+    text-align: center;
+  }
+  .header-ropa img {
+    display: none;
+  }
+  .header-ropa h1 {
+    margin: 20px auto;
+    padding: 0 10px;
+    font-size: 15px;
+  }
+  .header-ropa nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-ropa section h2 {
+    padding: 10px;
+    font-size: 18px;
+  }
+}
+
+.footer-ropa ul li {
+  display: block;
+  text-align: center;
+}
+.footer-ropa ul li a {
+  margin: 20px auto;
+}
+
+/*Electrodomesticos*/
+@media screen and (max-width: 320px) {
+  .header-electrodomesticos {
+    display: block;
+    text-align: center;
+  }
+  .header-electrodomesticos img {
+    display: none;
+  }
+  .header-electrodomesticos h1 {
+    margin: 20px auto;
+    padding: 0 10px;
+    font-size: 15px;
+  }
+  .header-electrodomesticos nav {
+    margin: 20px auto;
+  }
+}
+
+.footer-electrodomesticos ul li {
+  display: block;
+  text-align: center;
+}
+.footer-electrodomesticos ul li a {
+  margin: 20px auto;
+}
+
+/*Comida*/
+@media screen and (max-width: 320px) {
+  .header-comidas {
+    display: block;
+    text-align: center;
+  }
+  .header-comidas img {
+    display: none;
+  }
+  .header-comidas h1 {
+    margin: 20px auto;
+    padding: 0 10px;
+    font-size: 15px;
+  }
+  .header-comidas nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-comidas section {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .main-comidas section .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-comidas section .contenedor .card {
+    margin-bottom: 0px;
+  }
+}
+
+.footer-comidas ul li {
+  display: block;
+  text-align: center;
+}
+.footer-comidas ul li a {
+  margin: 20px auto;
+}
+
+/*Bebidas*/
+@media screen and (max-width: 320px) {
+  .header-bebidas {
+    display: block;
+    text-align: center;
+  }
+  .header-bebidas img {
+    display: none;
+  }
+  .header-bebidas h1 {
+    margin: 20px auto;
+    padding: 0 10px;
+    font-size: 15px;
+  }
+  .header-bebidas nav {
+    margin: 20px auto;
+  }
+}
+
+.footer-bebidas ul li {
+  display: block;
+  text-align: center;
+}
+.footer-bebidas ul li a {
+  margin: 20px auto;
+}
+
+/* Index */
+@media screen and (max-width: 768px) {
+  .header-index {
+    display: block;
+    text-align: center;
+  }
+  .header-index img {
+    display: none;
+  }
+  .header-index h1 {
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  .header-index nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-index section h2 {
+    padding: 20px;
+  }
+}
+
+.footer-index ul li {
+  display: block;
+  text-align: center;
+}
+.footer-index ul li a {
+  margin: 15px auto;
+}
+
+/* Ropa */
+@media screen and (max-width: 768px) {
+  .header-ropa {
+    display: block;
+    text-align: center;
+  }
+  .header-ropa img {
+    display: none;
+  }
+  .header-ropa h1 {
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  .header-ropa nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-ropa section h2 {
+    padding: 20px;
+  }
+}
+
+.footer-ropa ul li {
+  display: inline-block;
+  text-align: center;
+}
+.footer-ropa ul li a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Electrodomesticos */
+@media screen and (max-width: 768px) {
+  .header-electrodomesticos {
+    display: block;
+    text-align: center;
+  }
+  .header-electrodomesticos img {
+    display: none;
+  }
+  .header-electrodomesticos h1 {
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  .header-electrodomesticos nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-electrodomesticos section h2 {
+    padding: 20px;
+  }
+}
+
+.footer-electrodomesticos ul li {
+  display: inline-block;
+  text-align: center;
+}
+.footer-electrodomesticos ul li a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Comidas */
+@media screen and (max-width: 768px) {
+  .header-comidas {
+    display: block;
+    text-align: center;
+  }
+  .header-comidas img {
+    display: none;
+  }
+  .header-comidas h1 {
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  .header-comidas nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-comidas section h2 {
+    padding: 20px;
+  }
+}
+
+.footer-comidas ul li {
+  display: inline-block;
+  text-align: center;
+}
+.footer-comidas ul li a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Bebidas */
+@media screen and (max-width: 768px) {
+  .header-bebidas {
+    display: block;
+    text-align: center;
+  }
+  .header-bebidas img {
+    display: none;
+  }
+  .header-bebidas h1 {
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  .header-bebidas nav {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-bebidas section h2 {
+    padding: 20px;
+  }
+}
+
+.footer-bebidas ul li {
+  display: inline-block;
+  text-align: center;
+}
+.footer-bebidas ul li a {
+  margin: 0;
+  padding: 0;
+}
+
 @keyframes mover-icono {
   10% {
     transform: rotate(20deg);
@@ -14,10 +346,10 @@
     transform: rotate(20deg);
   }
 }
-.zoom, .main-comidas .menu .contenedor .card, .main-bebidas .contenedor img, .mian-electrodomesticos section .grid img, .header-bebidas nav div ul li a, .header-bebidas img, .header-comidas nav ul li a, .header-comidas h1, .header-electrodomesticos nav div ul li a, .header-electrodomesticos img, .header-index nav div ul li a, .header-index h1, .header-index img {
+.zoom, .main-comidas .menu .contenedor .card, .main-ropa section .contenedor img, .main-bebidas section .contenedor img, .mian-electrodomesticos section .grid img, .header-ropa nav div ul li a, .header-ropa img, .header-bebidas nav div ul li a, .header-bebidas img, .header-comidas nav ul li a, .header-comidas h1, .header-electrodomesticos nav div ul li a, .header-electrodomesticos img, .header-index nav div ul li a, .header-index h1, .header-index img {
   transition: all 0.3s;
 }
-.zoom:hover, .main-comidas .menu .contenedor .card:hover, .main-bebidas .contenedor img:hover, .mian-electrodomesticos section .grid img:hover, .header-bebidas nav div ul li a:hover, .header-bebidas img:hover, .header-comidas nav ul li a:hover, .header-comidas h1:hover, .header-electrodomesticos nav div ul li a:hover, .header-electrodomesticos img:hover, .header-index nav div ul li a:hover, .header-index h1:hover, .header-index img:hover {
+.zoom:hover, .main-comidas .menu .contenedor .card:hover, .main-ropa section .contenedor img:hover, .main-bebidas section .contenedor img:hover, .mian-electrodomesticos section .grid img:hover, .header-ropa nav div ul li a:hover, .header-ropa img:hover, .header-bebidas nav div ul li a:hover, .header-bebidas img:hover, .header-comidas nav ul li a:hover, .header-comidas h1:hover, .header-electrodomesticos nav div ul li a:hover, .header-electrodomesticos img:hover, .header-index nav div ul li a:hover, .header-index h1:hover, .header-index img:hover {
   transform: scale(1.09);
 }
 
@@ -132,6 +464,35 @@
   text-shadow: 4px 4px 4px #fff;
 }
 
+/*Header Ropa*/
+.header-ropa {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgb(255, 255, 255) 3%, rgb(12, 108, 106) 25%, rgb(0, 0, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header-ropa img {
+  height: 90px;
+  border-radius: 50%;
+  margin: 25px;
+}
+.header-ropa h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 25px;
+  color: #fff;
+}
+.header-ropa nav div ul li a {
+  font-size: 20px;
+  color: #000 !important;
+  margin: 5px;
+}
+.header-ropa nav div ul li a:hover {
+  text-shadow: 4px 4px 4px #fff;
+}
+
 /*Main Index*/
 .main-index {
   background: rgb(135, 159, 255);
@@ -182,7 +543,7 @@
 .main-comidas {
   background: linear-gradient(179deg, rgb(59, 220, 255) 0%, rgb(255, 255, 255) 100%);
 }
-.main-comidas .menu h2 {
+.main-comidas section .menu h2 {
   text-align: center;
   padding: 50px 0px 50px 0px;
   font-weight: bold;
@@ -193,12 +554,12 @@
   background: rgb(40, 255, 239);
   background: linear-gradient(180deg, rgb(40, 255, 239) 0%, rgb(0, 0, 0) 100%);
 }
-.main-bebidas h2 {
+.main-bebidas section h2 {
   text-align: center;
   padding: 50px 0px 50px 0px;
   font-weight: bold;
 }
-.main-bebidas .contenedor {
+.main-bebidas section .contenedor {
   width: 90%;
   max-width: 1100px;
   margin: auto;
@@ -206,11 +567,41 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
 }
-.main-bebidas .contenedor img {
+.main-bebidas section .contenedor img {
   height: 90%;
   width: 100%;
   object-fit: contain;
   border: 2px solid #000;
+}
+
+/*Main ropa*/
+.main-ropa {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(0, 253, 248, 0.5991773418) 0%, rgb(0, 0, 0) 57%);
+}
+.main-ropa section h2 {
+  text-align: center;
+  padding: 51px 0px 50px 0px;
+  font-weight: bold;
+}
+.main-ropa section .contenedor {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+.main-ropa section .contenedor img {
+  height: 90%;
+  width: 100%;
+  object-fit: contain;
+  border: 2px solid #000;
+}
+.main-ropa section .contenedor img:hover {
+  -webkit-box-shadow: -1px 13px 44px 28px rgb(255, 255, 255);
+  -moz-box-shadow: -1px 13px 44px 28px rgb(255, 255, 255);
+  box-shadow: -1px 13px 44px 28px rgb(255, 255, 255);
 }
 
 /*Cards Index*/
