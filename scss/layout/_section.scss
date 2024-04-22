@@ -9,7 +9,6 @@
   );
 
   section {
-
     h2 {
       padding: 40px;
       text-align: center;
@@ -60,6 +59,24 @@
           box-shadow: 1px -5px 100px 11px rgb(147, 157, 250);
         }
       }
+    }
+  }
+}
+
+/*Main Comidas*/
+
+.main-comidas {
+  background: linear-gradient(
+    179deg,
+    rgba(59, 220, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  .menu {
+    h2 {
+      text-align: center;
+      padding: 50px 0px 50px 0px;
+      font-weight: bold;
     }
   }
 }

@@ -43,7 +43,26 @@
         animation-name: mover-icono;
         animation-duration: 5s;
         animation-timing-function: linear;
-        
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+}
+
+/*Footer Comida*/
+
+.footer-comida{
+  background: rgb(40,255,239);
+  background: radial-gradient(circle, rgba(40,255,239,1) 0%, rgba(0,0,0,1) 100%);  @include footer();
+  ul li {
+    display: inline-block;
+    padding-top: 25px;
+    a {
+      margin: 50px;
+      img {
+        animation-name: mover-icono;
+        animation-duration: 5s;
+        animation-timing-function: linear;
         animation-iteration-count: infinite;
       }
     }

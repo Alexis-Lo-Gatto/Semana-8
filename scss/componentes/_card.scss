@@ -1,3 +1,5 @@
+/*Cards Index*/
+
 .main-index {
   section {
     .card-index {
@@ -24,5 +26,26 @@
         }
       }
     }
+  }
+}
+
+
+/*Cards Comida*/
+.main-comidas{
+  .menu{
+    .contenedor{
+      width: 80%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 300px;
+      gap: 30px;
+      .card{
+        margin-bottom: 50px;
+        border: 2px solid #0066ff;
+        @extend .zoom;
+        
+      }
+    }
+
   }
 }
