@@ -14,10 +14,10 @@
     transform: rotate(20deg);
   }
 }
-.zoom, .main-comidas .menu .contenedor .card, .main-bebidas .contenedor img, .mian-electrodomesticos section .grid img, .header-comidas nav ul li a, .header-comidas h1, .header-electrodomesticos nav div ul li a, .header-electrodomesticos img, .header-index nav div ul li a, .header-index h1, .header-index img {
+.zoom, .main-comidas .menu .contenedor .card, .mian-electrodomesticos section .grid img, .header-bebidas nav div ul li a, .header-bebidas img, .header-comidas nav ul li a, .header-comidas h1, .header-electrodomesticos nav div ul li a, .header-electrodomesticos img, .header-index nav div ul li a, .header-index h1, .header-index img {
   transition: all 0.3s;
 }
-.zoom:hover, .main-comidas .menu .contenedor .card:hover, .main-bebidas .contenedor img:hover, .mian-electrodomesticos section .grid img:hover, .header-comidas nav ul li a:hover, .header-comidas h1:hover, .header-electrodomesticos nav div ul li a:hover, .header-electrodomesticos img:hover, .header-index nav div ul li a:hover, .header-index h1:hover, .header-index img:hover {
+.zoom:hover, .main-comidas .menu .contenedor .card:hover, .mian-electrodomesticos section .grid img:hover, .header-bebidas nav div ul li a:hover, .header-bebidas img:hover, .header-comidas nav ul li a:hover, .header-comidas h1:hover, .header-electrodomesticos nav div ul li a:hover, .header-electrodomesticos img:hover, .header-index nav div ul li a:hover, .header-index h1:hover, .header-index img:hover {
   transform: scale(1.09);
 }
 
@@ -103,6 +103,35 @@
   text-shadow: 2px 2px 7px rgb(0, 0, 0);
 }
 
+/*Header Bebidas*/
+.header-bebidas {
+  background: rgb(40, 255, 239);
+  background: radial-gradient(circle, rgb(40, 255, 239) 0%, rgb(0, 0, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header-bebidas img {
+  height: 90px;
+  border-radius: 50%;
+  margin: 25px;
+}
+.header-bebidas h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 25px;
+  color: #fff;
+}
+.header-bebidas nav div ul li a {
+  font-size: 20px;
+  color: #000 !important;
+  margin: 5px;
+}
+.header-bebidas nav div ul li a:hover {
+  text-shadow: 4px 4px 4px #fff;
+}
+
 /*Main Index*/
 .main-index {
   background: rgb(135, 159, 255);
@@ -157,31 +186,6 @@
   text-align: center;
   padding: 50px 0px 50px 0px;
   font-weight: bold;
-}
-
-/*Main bebidas*/
-.main-bebidas {
-  background: rgb(40, 255, 239);
-  background: linear-gradient(180deg, rgb(40, 255, 239) 0%, rgb(0, 0, 0) 100%);
-}
-.main-bebidas h2 {
-  text-align: center;
-  padding: 50px 0px 50px 0px;
-  font-weight: bold;
-}
-.main-bebidas .contenedor {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-}
-.main-bebidas .contenedor img {
-  height: 90%;
-  width: 100%;
-  object-fit: contain;
-  border: 2px solid #000;
 }
 
 /*Cards Index*/
@@ -282,29 +286,6 @@
   margin: 50px;
 }
 .footer-comida ul li a img {
-  animation-name: mover-icono;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-/*Footer bebidas*/
-.footer-bebidas {
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgb(40, 255, 239);
-  background: linear-gradient(180deg, rgb(40, 255, 239) 0%, rgb(0, 0, 0) 100%);
-}
-.footer-bebidas ul li {
-  display: inline-block;
-  padding-top: 25px;
-}
-.footer-bebidas ul li a {
-  margin: 50px;
-}
-.footer-bebidas ul li a img {
   animation-name: mover-icono;
   animation-duration: 5s;
   animation-timing-function: linear;
