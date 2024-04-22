@@ -71,12 +71,13 @@
     rgba(59, 220, 255, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
-
-  .menu {
-    h2 {
-      text-align: center;
-      padding: 50px 0px 50px 0px;
-      font-weight: bold;
+  section {
+    .menu {
+      h2 {
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+        font-weight: bold;
+      }
     }
   }
 }
@@ -90,25 +91,67 @@
     rgba(40, 255, 239, 1) 0%,
     rgba(0, 0, 0, 1) 100%
   );
-  h2 {
-    text-align: center;
-    padding: 50px 0px 50px 0px;
-    font-weight: bold;
-  }
-  .contenedor {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+  section {
+    h2 {
+      text-align: center;
+      padding: 50px 0px 50px 0px;
+      font-weight: bold;
+    }
+    .contenedor {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
 
-    img {
-      height: 90%;
-      width: 100%;
-      object-fit: contain;
-      @extend .zoom;
-      border: 2px solid #000;
+      img {
+        height: 90%;
+        width: 100%;
+        object-fit: contain;
+        @extend .zoom;
+        border: 2px solid #000;
+      }
+    }
+  }
+}
+
+/*Main ropa*/
+
+.main-ropa {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 253, 248, 0.5991773418351716) 0%,
+    rgba(0, 0, 0, 1) 57%
+  );
+  section {
+    h2 {
+      text-align: center;
+      padding: 50px 0px 50px 0px;
+      font-weight: bold;
+    }
+    .contenedor {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+
+      img {
+        height: 90%;
+        width: 100%;
+        object-fit: contain;
+        @extend .zoom;
+        border: 2px solid #000;
+        &:hover {
+          -webkit-box-shadow: -1px 13px 44px 28px rgba(255, 255, 255, 1);
+          -moz-box-shadow: -1px 13px 44px 28px rgba(255, 255, 255, 1);
+          box-shadow: -1px 13px 44px 28px rgba(255, 255, 255, 1);
+        }
+      }
     }
   }
 }
