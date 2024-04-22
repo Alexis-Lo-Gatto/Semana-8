@@ -14,10 +14,10 @@
     transform: rotate(20deg);
   }
 }
-.zoom, .mian-electrodomesticos section .grid img, .header-electrodomesticos nav div ul li a, .header-electrodomesticos img, .header-index nav div ul li a, .header-index h1, .header-index img {
+.zoom, .main-comidas .menu .contenedor .card, .mian-electrodomesticos section .grid img, .header-electrodomesticos nav div ul li a, .header-electrodomesticos img, .header-index nav div ul li a, .header-index h1, .header-index img {
   transition: all 0.3s;
 }
-.zoom:hover, .mian-electrodomesticos section .grid img:hover, .header-electrodomesticos nav div ul li a:hover, .header-electrodomesticos img:hover, .header-index nav div ul li a:hover, .header-index h1:hover, .header-index img:hover {
+.zoom:hover, .main-comidas .menu .contenedor .card:hover, .mian-electrodomesticos section .grid img:hover, .header-electrodomesticos nav div ul li a:hover, .header-electrodomesticos img:hover, .header-index nav div ul li a:hover, .header-index h1:hover, .header-index img:hover {
   transform: scale(1.09);
 }
 
@@ -125,6 +125,7 @@
   box-shadow: 1px -5px 100px 11px rgb(147, 157, 250);
 }
 
+/*Cards Index*/
 .main-index section .card-index {
   width: 80%;
   display: grid;
@@ -144,6 +145,19 @@
   -webkit-box-shadow: 0px 6px 67px 18px rgb(238, 174, 202);
   -moz-box-shadow: 0px 6px 67px 18px rgb(238, 174, 202);
   box-shadow: 0px 6px 67px 18px rgb(238, 174, 202);
+}
+
+/*Cards Comida*/
+.main-comidas .menu .contenedor {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 300px;
+  gap: 30px;
+}
+.main-comidas .menu .contenedor .card {
+  margin-bottom: 50px;
+  border: 2px solid #0066ff;
 }
 
 /*Footer Index*/
