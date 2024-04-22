@@ -1,0 +1,86 @@
+[33mcommit f927ba1fdc5aa7881ec24e3a76c2f015ce1cd053[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Mon Apr 22 15:56:47 2024 -0300
+
+    Termine la seccion de ropa
+
+[33mcommit be83217489e35bf51a3e667fb28544bca5aaeabe[m
+Merge: d17b93d 0677c5f
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Mon Apr 22 15:49:24 2024 -0300
+
+    Resolver conflictos de fusión en archivos CSS
+
+[33mcommit d17b93d955524c20ccc844c577534cd95fd1425e[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Mon Apr 22 15:47:27 2024 -0300
+
+    Guardar cambios en archivos CSS antes de fusionar la rama ropa
+
+[33mcommit 0677c5f07f3914291bfe17fc9ff9bc58f2c043d0[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Mon Apr 22 15:45:19 2024 -0300
+
+    Termine la seccion de ropa
+
+[33mcommit 1f119df745cd88577347979fac00dbab5766a7e4[m
+Merge: ac1c0c1 5e0d595
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Mon Apr 22 15:01:03 2024 -0300
+
+    Guardar cambios locales antes de cambiar de rama
+
+[33mcommit ac1c0c1e570da0b905bc59b08cc1e1ca8e84d9ea[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Mon Apr 22 14:56:54 2024 -0300
+
+    bebidas
+
+[33mcommit 5e0d595e3b4ef43edd142a24479441ed06d3111c[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Mon Apr 22 14:54:34 2024 -0300
+
+    Termine la seccion de bebidas
+
+[33mcommit cacf2a035e057fef6270614ef28b3fd5d88f5919[m
+Merge: 8dd2019 bb29bf9
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Sun Apr 21 22:37:19 2024 -0300
+
+    Merge branch 'comidas'
+
+[33mcommit bb29bf9b87bf189bd2419c2d112f07b4315da39f[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Sun Apr 21 22:35:44 2024 -0300
+
+    Hay un error en git que no me deja avanzar , es la 5ta vez que o guardo
+
+[33mcommit 8dd20196b5f39e1a580b6cfacaf4f4a1f1c21b5e[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Sun Apr 21 22:31:34 2024 -0300
+
+    Termine la seccion de comidas
+
+[33mcommit 7d088fcf5d8e68ff504a1ddda46e1cdf9d6eaf06[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Sun Apr 21 22:22:24 2024 -0300
+
+    Termine la seccion Comidas
+
+[33mcommit a3652acf42006ca0979d069b2fa9ee5c2629facf[m[33m ([m[1;32mElectrodomesticos[m[33m)[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Sat Apr 20 23:32:45 2024 -0300
+
+    Termine la parte de Electrodomesticos
+
+[33mcommit 60ec202eab8f6b0f21cca426970c1ace3ed9da4d[m[33m ([m[1;32mIndex[m[33m)[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Sat Apr 20 00:26:47 2024 -0300
+
+    Termine el Index
+
+[33mcommit acb70b24bd54902a1ec514e8149049c0d62af017[m
+Author: Alexis Lo Gatto <logattoalexis78@gmail.com>
+Date:   Fri Apr 19 16:18:02 2024 -0300
+
+    Termine el primer header
